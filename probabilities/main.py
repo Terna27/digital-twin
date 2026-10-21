@@ -14,8 +14,8 @@
 
 
 
-# # Probability for a DICE
-# # PROBABILITY OF EVEN NUMBER IN A DICE
+# Probability for a DICE
+# PROBABILITY OF EVEN NUMBER IN A DICE
 
 # def even_probability():
     
