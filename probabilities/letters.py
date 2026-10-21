@@ -17,13 +17,13 @@ def vowel_probability():
             favourable_outcome += 1
             # lst = " ".join(favourable_outcome)
     return favourable_outcome
-        
-vow = vowel_probability()
+ 
+def run():
+            
+    vow = vowel_probability()
 
-print(vow)
+    total_outcome = 6
+    Probability = vow/total_outcome
 
-total_outcome = 6
-Probability = vow/total_outcome
-
-print(Probability)
-print(Probability * 100, "%")
+    print(Probability)
+    print(Probability * 100, "%")
