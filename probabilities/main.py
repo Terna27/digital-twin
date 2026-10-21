@@ -1,46 +1,47 @@
 # # Probability for a coin
 
-# # probability = favourable_outcome/ total_outcome
+# probability = favourable_outcome/ total_outcome
 
 
-# favourable_outcome = 1
-# total_outcome = 2
+favourable_outcome = 1
+total_outcome = 2
 
-# probability = favourable_outcome/total_outcome
+probability = favourable_outcome/total_outcome
 
-# print("probability : ", probability)
+print("probability : ", probability)
 
-# print("Percentage : ", probability * 100, "%")
+print("Percentage : ", probability * 100, "%")
 
 
 
 # Probability for a DICE
 # PROBABILITY OF EVEN NUMBER IN A DICE
 
-# def even_probability():
+def even_probability():
     
-#     favour_outcom = 0
+    favour_outcom = 0
     
-#     for nb in range(1, 7):
-#         if nb % 2 == 0:
-#             favour_outcom += 1
-#     return favour_outcom
+    for nb in range(1, 7):
+        if nb % 2 == 0:
+            favour_outcom += 1
+    return favour_outcom
 
-# fvcm = even_probability()
+fvcm = even_probability()
 
-# print(fvcm)
+print(fvcm)
 
-# total_outcom = 6
+total_outcom = 6
 
-# probabiliti = fvcm/total_outcom
+probabiliti = fvcm/total_outcom
 
-# print(probabiliti)
-# print(probabiliti * 100, "%")
+print(probabiliti)
+print(probabiliti * 100, "%")
 
 
 
 
 # PROBABILITY OF A PRIME NUMBER IN A DICE
+
 def is_primer():
     count = 0
     for num in range(2, 7):
