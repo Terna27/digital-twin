@@ -1,5 +1,5 @@
 
-
+# find the probability of an even number greater than 3
 def greater_than_three():
     grtr = []
     count = 0
@@ -11,8 +11,8 @@ def greater_than_three():
             
         if is_even:
             count += 1
-            grtr.append(nb)
-    print(grtr)
+    #         grtr.append(nb)
+    # print(grtr)
     return count
 
 def run():
